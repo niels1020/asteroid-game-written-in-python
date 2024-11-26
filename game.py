@@ -29,7 +29,7 @@ def update():
     global paused
     if not paused:
 
-        if kills > settings.kills_for_card:
+        if kills >= settings.kills_for_card:
             paused = True
             choosing_cards = True
             modifier_cards.onstart()
