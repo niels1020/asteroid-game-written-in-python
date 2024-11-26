@@ -5,7 +5,7 @@ debug_enabled = False
 game_title = "asteroid clone"
 despawn_distance = 1000
 cards_to_chose = 3
-kills_for_card = 5
+kills_for_card = 0 #set to 0 for debugging normal value is 5
 
 #paths
 game_icon_path = "assets/icon.png"
