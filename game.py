@@ -29,10 +29,10 @@ def update():
     global paused
     if not paused:
 
-        if kills >= settings.kills_for_card:
-            paused = True
-            choosing_cards = True
-            modifier_cards.onstart()
+        #if kills >= settings.kills_for_card:
+         #   paused = True
+          #  choosing_cards = True
+           # modifier_cards.onstart()
 
         global astroid_spawn_timer
         graphics.clear(settings.secondary_color)
